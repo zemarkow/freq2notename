@@ -43,5 +43,4 @@ To interactively create and navigate spectrograms of your music with audio playb
 
 ## Acknowledgments
 
-The pyinstaller package was used to create the standalone dashboard executable files to simplify installation.
-
+The pyinstaller package was used to create the standalone dashboard executable files in the *dashboard_downloads* folder.
