@@ -11,8 +11,8 @@ Toolkit for converting audio frequencies into musical note names and vice versa 
 Welcome to freq2notename!  This is a software package for converting audio frequencies into musical note names and vice versa.  This functionality has several uses, including checking the tuning of musical instruments and transcribing sheet music notation from audio recordings and their spectrograms.
 
 This toolkit is organized into two main programs:
-1. freq2notename_dashboard: a graphical user interface where you can convert between frequencies and notes in text blocks with simple point-and-click, copy-and-paste actions, and
-2. freq2notename/utils.py: a code module that defines the toolkit's core functions, which you can optionally import and call in other Python scripts.  This module also supports converting within text blocks.
+1. *freq2notename_dashboard:* a graphical user interface where you can convert between frequencies and notes in text blocks with simple point-and-click, copy-and-paste actions, and
+2. *freq2notename/utils.py:* a code module that defines the toolkit's core functions, which you can optionally import and call in other Python scripts.  This module also supports converting within text blocks.
 
 freq2notename can perform these conversions within human-readable blocks of text containing frequencies or note names interspersed with blank lines and commentary, like the comments you might write when analyzing where peaks/hot spots occur in an audio recording's spectrogram to transcribe it into music notation.  In each line of text, simply put a space, comma, tab, forward slash (/), or vertical bar (|) between frequencies or note names.  After the frequencies or note names in each line, place a percent sign (%) before any commentary.  This toolkit supports variable A4 tunings, +/- cents deviations, and transposition for different instruments.
 
