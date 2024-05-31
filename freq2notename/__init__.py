@@ -12,11 +12,3 @@ __version__ = "1.0.0"
 
 # Define list of submodules to import when importing all (*).
 __all__ = ['utils']
-
-# Import submodules for convenience when "import freq2notename" is run.
-##from importlib import import_module
-##import_module(".dashboard", package="freq2notename")
-##import_module(".utils", package="freq2notename")
-##
-##
-##print("init ran")
