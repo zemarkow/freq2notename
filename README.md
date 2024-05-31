@@ -35,7 +35,7 @@ If Method 1 fails or we don't have a single-file dashboard available for your co
 ### Method 3:
 #### Recommended for Python programmers who want to use freq2notename's backend in other scripts
 
-Use pip to install freq2notename as a Python package (e.g., by running `pip install freq2notename` in a system terminal).  Then, to run the dashboard interface, run `python3 -m freq2notename` in a system terminal.  To use freq2notename's backend utility functions in another Python script, `import freq2notename.utils` in that script.  If Method 3 does not work for you, try Method 2.
+Use pip to install freq2notename as a Python package (e.g., by running `python3 -m pip install freq2notename` in a system terminal).  Then, to run the dashboard interface, run `python3 -m freq2notename` in a system terminal.  To use freq2notename's backend utility functions in another Python script, `import freq2notename.utils` in that script.  If Method 3 does not work for you, try Method 2.
 
 ## Other Useful Software
 
