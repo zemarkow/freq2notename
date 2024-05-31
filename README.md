@@ -19,9 +19,9 @@ freq2notename can perform these conversions within human-readable blocks of text
 #### See the guide PDF for a version of these instructions with screen photos!
 
 ### Method 1:
-#### Recommended if you are not using freq2notename for Python programming
+#### Recommended if you only need the point-and-click dashboard interface
 
-If you only need the point-and-click dashboard interface, simply go to the dashboard_downloads folder and download the standalone dashboard file for your computer's operating system (e.g., Windows, macOS, etc.).  Then double-click on the file to run it.  If Method 1 does not work for you or you don't see a standalone dashboard for your computer's operating system, try Method 2.
+If you are not using freq2notename for Python programming, simply go to the dashboard_downloads folder and download the standalone dashboard file for your computer's operating system (e.g., Windows, macOS, etc.).  Then double-click on the file to run it.  If Method 1 does not work for you or you don't see a standalone dashboard for your computer's operating system, try Method 2.
 
 ### Method 2:
 #### Recommended as a backup if Method 1 doesn't work for you
