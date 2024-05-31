@@ -21,7 +21,7 @@ freq2notename can perform these conversions within human-readable blocks of text
 ### Method 1:
 #### Recommended if you only need the point-and-click dashboard interface
 
-If you are not using freq2notename for Python programming, simply go to the dashboard_downloads folder and download the standalone dashboard file for your computer's operating system (e.g., Windows, macOS, etc.).  Then double-click on the file to run it.  If Method 1 does not work for you or you don't see a standalone dashboard for your computer's operating system, try Method 2.
+If you are not using freq2notename for Python programming, simply go to the *dashboard_downloads* folder and download the standalone dashboard file for your computer's operating system (e.g., Windows, macOS, etc.).  Then double-click on the file to run it.  If Method 1 does not work for you or you don't see a standalone dashboard for your computer's operating system, try Method 2.
 
 ### Method 2:
 #### Recommended as a backup if Method 1 doesn't work for you
@@ -35,7 +35,7 @@ If Method 1 fails or we don't have a single-file dashboard available for your co
 ### Method 3:
 #### Recommended for Python programmers who want to use freq2notename's backend in other scripts
 
-Use pip to install freq2notename as a Python package (e.g., by running "pip install freq2notename" in a system terminal).  Then, to run the dashboard interface, run "python3 -m freq2notename" in a system terminal.  To use freq2notename's backend utility functions in another Python script, import freq2notename.utils in that script.  If Method 3 does not work for you, try Method 2.
+Use pip to install freq2notename as a Python package (e.g., by running `pip install freq2notename` in a system terminal).  Then, to run the dashboard interface, run `python3 -m freq2notename` in a system terminal.  To use freq2notename's backend utility functions in another Python script, `import freq2notename.utils` in that script.  If Method 3 does not work for you, try Method 2.
 
 ## Other Useful Software
 
