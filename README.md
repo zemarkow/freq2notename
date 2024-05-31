@@ -41,3 +41,7 @@ Use pip to install freq2notename as a Python package (e.g., by running "pip inst
 
 To interactively create and navigate spectrograms of your music with audio playback, I recommend the free program Audacity.  To type music notation and create scores, I recommend the programs MuseScore 4 (free), Sibelius, or Finale.  To perform a wide range of music processing and feature analysis tasks within your own Python scripts, I also recommend the free software package librosa.  I learned about librosa after I wrote freq2notename, and librosa also supports interconverting between frequencies and note names one at a time.  However, I still use freq2notename for the convenience and efficiency of interconverting within commented blocks of text via an interactive graphical interface.
 
+## Acknowledgments
+
+The pyinstaller package was used to create the standalone dashboard executable files to simplify installation.
+
