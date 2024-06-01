@@ -31,7 +31,6 @@
 import freq2notename.utils as f2nn
 import tkinter as tk
 import tkinter.ttk as ttk
-#from tkinter import font
 
 
 # Define instrument list for transposition settings.
