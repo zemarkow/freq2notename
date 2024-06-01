@@ -6,12 +6,12 @@
 #
 # Run the GUI for the author's freq2notename tools when the
 # user runs python3 -m freq2notename.  Code is identical
-# to freq2notename_dashboard.py.
+# to freq2notename_dashboard.py except for the utils import path.
 #
 
 
 ## Imports
-import freq2notename.utils as f2nn
+import utils as f2nn
 import tkinter as tk
 import tkinter.ttk as ttk
 
