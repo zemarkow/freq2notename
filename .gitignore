@@ -5,4 +5,5 @@ thumbs.db
 build/
 dist/
 freq2notename_dashboard_macOS.app/
+freq2notename_dashboard.spec
 __pycache__/
