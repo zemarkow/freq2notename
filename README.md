@@ -4,7 +4,7 @@ Toolkit and graphical user interface for converting audio frequencies into music
 
 ## Introduction and Getting Started
 
-### Please see the guide PDF for installation instructions and tutorials with screen photos!
+### Please see the guide PDF (coming soon) for installation instructions and tutorials with screen photos!
 
 Welcome to freq2notename!  This is a software package for converting audio frequencies into musical note names and vice versa.  This functionality has several uses, including checking the tuning of musical instruments and transcribing sheet music notation from audio recordings and their spectrograms.
 
@@ -16,7 +16,7 @@ freq2notename can perform these conversions within human-readable blocks of text
 
 ## Installing and Running freq2notename
 
-#### See the guide PDF for a version of these instructions with screen photos!
+#### See the guide PDF (coming soon) for a version of these instructions with screen photos!
 
 ### Method 1:
 #### Recommended if you only need the point-and-click dashboard interface
