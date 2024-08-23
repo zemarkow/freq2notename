@@ -26,7 +26,7 @@ If you are not using freq2notename for Python programming, simply go to the *das
 ### Method 2:
 #### Recommended as a backup if Method 1 doesn't work for you
 
-If Method 1 fails or we don't have a single-file dashboard available for your computer's operating system:
+If Method 1 fails or you don't see a single-file dashboard available for your computer's operating system:
 1. Install the latest stable version of Python from python.org unless you have already installed the official release of Python 3.8 or later (not just the Python version that may have come with your computer).
 2. Download this full freq2notename GitHub repository as a .zip file by clicking the green "Code" menu button near the upper-right of this main GitHub page and then clicking on "Download ZIP" in the menu that appears.  Then unzip the file anywhere you like on your computer.
 3. Go into the unzipped freq2notename folder on your computer, right-click or Ctrl-click on freq2notename_dashboard.py, go to "Open With", and select IDLE to open that file in IDLE.
