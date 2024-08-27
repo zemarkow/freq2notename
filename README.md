@@ -1,6 +1,6 @@
 # freq2notename
 
-Toolkit and graphical user interface / app for converting audio frequencies into musical note names and vice versa for music transcription and tuning
+Python toolkit and graphical user interface / app for converting audio frequencies into musical note names and vice versa for music transcription and tuning
 
 ## Introduction and Getting Started
 
