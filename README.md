@@ -14,8 +14,6 @@ freq2notename can perform these conversions within human-readable blocks of text
 
 ## Installing and Running freq2notename
 
-#### See the guide PDF (coming soon) for a version of these instructions with screen photos!
-
 ### Method 1:
 #### Recommended if you only need the point-and-click dashboard interface
 
@@ -30,8 +28,8 @@ If Method 1 fails or you don't see a single-file dashboard available for your co
 3. Go into the unzipped freq2notename folder on your computer, right-click or Ctrl-click on freq2notename_dashboard.py, go to "Open With", and select IDLE to open that file in IDLE.
 4. Within IDLE, go up to and click on the Run menu at the top of the screen, and then click "Run Module."
 
-### Method 3:
-#### Coming soon, recommended for Python programmers who want to use freq2notename's backend in other scripts
+### Method 3 (Coming Soon, In Preparation):
+#### Recommended for Python programmers who want to use freq2notename's backend in other scripts
 
 Use pip to install freq2notename as a Python package (e.g., by running `python3 -m pip install freq2notename` in a system terminal).  Then, to run the dashboard interface, run `python3 -m freq2notename` in a system terminal.  To use freq2notename's backend utility functions in another Python script, `import freq2notename.utils` in that script.  If Method 3 does not work for you, try Method 2.
 
