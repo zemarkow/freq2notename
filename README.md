@@ -32,11 +32,6 @@ If Method 1 fails or you don't see a single-file dashboard available for your co
 3. Go into the unzipped freq2notename folder on your computer, right-click or Ctrl-click on freq2notename_dashboard.py, go to "Open With", and select IDLE to open that file in IDLE.
 4. Within IDLE, go up to and click on the Run menu at the top of the screen, and then click "Run Module."
 
-### Method 3:
-#### Recommended for Python programmers who want to use freq2notename's backend in other scripts
-
-Use pip to install freq2notename as a Python package (e.g., by running `python3 -m pip install freq2notename` in a system terminal).  Then, to run the dashboard interface, run `python3 -m freq2notename` in a system terminal.  To use freq2notename's backend utility functions in another Python script, `import freq2notename.utils` in that script.  If Method 3 does not work for you, try Method 2.
-
 ## Other Useful Software
 
 To interactively create and navigate spectrograms of your music with audio playback, I recommend the free program Audacity.  To type music notation and create scores, I recommend the programs MuseScore 4 (free), Sibelius, or Finale.  To perform a wide range of music processing and feature analysis tasks within your own Python scripts, I also recommend the free software package librosa.  I learned about librosa after I wrote freq2notename, and librosa also supports interconverting between frequencies and note names one at a time.  However, I still use freq2notename for the convenience and efficiency of interconverting within commented blocks of text via an interactive graphical interface.

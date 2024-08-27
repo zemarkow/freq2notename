@@ -1,0 +1,17 @@
+% This file is an example of block text with note frequencies (in Hz) that can be converted into note names.  Read example01-with-freqs.txt first, though.
+
+% Here is the note "A" in different octaves again, but tuned to a sharper A4 around 442 Hz, and with some imperfections/deviations.
+% Try pasting these frequencies in and hitting the auto-estimate A4 frequency button. Then convert them into note names.
+442.1, 884, 220.7
+111 55.5 1774 110.5 883.9
+
+% Click "Guess Key Signature" after converting to note names.
+% Since only natural notes are found here, the program should guess C, the simplest key signature. Of course, only A-naturals are found here, and since there are many key signatures containing A-natural, C is only one of several appropriate key signatures in this case.  The "Guess Key Signature" button is more useful in cases where several different note letters appear.
+
+% Look under the detailed settings and turn on "show +/- cents" deviation, then convert from frequencies to note names again.
+% The cents deviations show how close each frequency is to a perfectly-tuned version of the same-named note, assuming the A4 tuning frequency in the A4 box.
+
+% Try changing the instrument to "Alto Saxophone" under detailed settings, then convert from frequencies to note names again.
+% The note frequencies above should be named different octaves of F# instead of A now, because the notes with those frequencies (A at concert pitch) would be written as F# on alto saxophone sheet music.
+% Now click "Guess Key Signature". The program should guess a written key signature with sharps, such as G. Of course, only F#s are found here, and since all sharp key signatures contain F#, any sharp key signature is appropriate in this case.
+

@@ -1,0 +1,13 @@
+% This file is an example of block text with note frequencies (in Hz) that can be converted into note names.
+
+% This line is a comment that the converter will ignore.
+% The converter will ignore any text after a % sign on a line, so you can use % signs to annotate your text.
+% You can paste the contents of this whole text file into the converter and run it in one click!
+% For converting frequencies to note names, make sure the button next to "frequencies to note names" is selected.
+
+% The note "A" in different octaves, with perfect A4 = 440 Hz tuning:
+440, 880, 220  % Example annotation: first notes of a piece
+110 55 | 1320 | 110 880
+
+% You can use any combination of commas, spaces, and vertical bars | to separate notes on a line.
+

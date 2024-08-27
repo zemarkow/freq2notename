@@ -1,0 +1,11 @@
+% This file is an example of block text with note names that can be converted into frequencies.  Read example01-with-names.txt first, though.
+
+% Here is the note "A" in different octaves again, but with some tuning imperfections/deviations.  Try setting the A4 frequency to 442 Hz before converting these.
+A4 + 0.4 cents, A5, A3-2.4
+A2+7.8cents A1+7.8 A6+2 A2 A5 - 0.2 cents
+
+% Cents deviations can be specified with or without spaces after the note name and with or without the word "cents".
+
+% Try changing the instrument to "Alto Saxophone" under detailed settings, then convert from note names to frequencies.
+% The note frequencies should be lower than when the instrument is set to None / Concert Pitch.
+% This is because an alto saxophone's true/sounding pitch is lower than the notes written on alto saxophone sheet music, and the program interprets the note names as notes written on the specified instrument's music.

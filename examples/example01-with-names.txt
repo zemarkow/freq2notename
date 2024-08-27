@@ -1,0 +1,12 @@
+% This file is an example of block text with note names that can be converted into frequencies.
+
+% This line is a comment that the converter will ignore.
+% The converter will ignore any text after a % sign on a line, so you can use % signs to annotate your text.
+% You can paste the contents of this whole text file into the converter and run it in one click!
+% For converting note names to frequencies, make sure the button next to "note names to frequencies" is selected.
+
+% The note "A" in different octaves:
+A4, A5, A3  % Example annotation: first notes of a piece
+A2 A1 | A6 | A2 A5
+
+% You can use any combination of commas, spaces, and vertical bars | to separate notes on a line.
