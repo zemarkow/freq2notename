@@ -1,0 +1,2 @@
+% Frequencies of first 5 lowest notes from 4.5-7.5 seconds
+246, 197, 246, 197, 207
