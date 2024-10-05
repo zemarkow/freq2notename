@@ -8,6 +8,7 @@ This document explains how to use spectrograms, Audacity, and freq2notename’s 
 
 ## What is an audio spectrogram?
 It's basically a special way of visualizing a sound wave/audio track.  It shows you the strengths of different pitches/frequencies that you hear at different times in the audio track.  Bright/hot spots ("peaks") appear at the pitches/frequencies and time points where the sound is loudest.  This is much like a sheet music staff, where time moves forward as you move from left to right, pitch increases as you move from below to above, and notes/dots appear where they should be played; horizontal position indicates when to play the note, and vertical position indicates how high the note's pitch is.
+
 ![Spectrogram example and components](images/Spectrogram_Anatomy.png)
 
 ## How can a spectrogram help me convert an audio track into sheet music?
@@ -26,19 +27,24 @@ This all takes practice and can be difficult when many instruments are playing s
 2. Open your sound file in Audacity.  Audacity supports many sound file formats, including MP3 and WAV.  However, if you only have the file in a format that you can listen to with other programs, you could convert the file to MP3 with some other program or record the sound directly into a new Audacity file.\*\*
 
 3. Go up to the View menu \> Toolbars sub-menu and turn on the Spectral Selection Toolbar, which will then appear at the bottom of Audacity.
+
 ![View Spectral Selection Toolbar](images/Spectral_Selection_Toolbar_View_Show.png)
 
 4. Click on the lower edge of the sound waveform and drag downward to expand the view.
+
 ![Expand Spectrogram](images/Expand_Waveform_View.png)
 
 5. Right-click to the left of your sound waveform’s view, and switch to the spectrogram view.
+
 ![Change to Spectrogram View](images/Change_to_Spectrogram.png)
 
 6. Right-click in the same location, click "Spectrogram Settings...", and then set the spectrogram's view scale to mel or logarithmic (both work well) from 60 Hz to 2500 Hz.  These two numbers define the range of pitches to zoom in on, so shifted and narrower ranges might be better when you are focusing on only low voices or only high voices.  When choosing this range, it helps to remember that typically A4 is 440 Hz, and you divide or multiply any frequency by 2 to go down or up an octave, respectively (so A3 is 220 Hz, A2 is 110 Hz, A5 is 880 Hz, A6 is 1760 Hz, etc.).  Make sure that the "Enable Spectral Selection" box is checked (on) too.  I also recommend setting the spectrogram "window size" to 4096 or 8192 and the "scheme" to "Color (Roseus)".  The "window size" here refers to a behind-the-scenes calculation detail and not to the bounds/zoom of your view.  Larger spectrogram window size values like 8192 or 16384 will make the hot spots/peaks narrower/sharper in frequency (vertically) but broader/blurrier in time (horizontally), making notes easier to distinguish by pitch but harder to place in time.  Larger window sizes are usually only helpful for estimating very low frequencies with good precision (e.g., A1-A2: 55-110 Hz), where notes 1/2 step apart will have only small frequency differences.
+
 ![Access Spectrogram Settings](images/Spectrogram_Settings_Access.png)
 ![Change Spectrogram Settings](images/Spectrogram_Settings.png)
 
 7. Zoom in on the time segment that you want to transcribe by clicking and dragging over the segment, then going up to the View menu, then clicking "zoom to selection".
+
 ![Zoom to Selection](images/Zoom_to_Selection.png)
 
 8. In the Spectral Selection Toolbar near the bottom-left corner of the screen, set the menu to "Center frequency and Width" if it is not already on that setting.
@@ -46,9 +52,11 @@ This all takes practice and can be difficult when many instruments are playing s
 9. Play the audio segment a few times and watch the cursor to get a sense of which hot spots/peaks correspond to which notes, instruments/parts, and rhythms.
 
 10. For each peak of interest, click and drag over the hot spot.  Your selection should tightly enclose the hot spot’s vertical width.  Then check near the bottom-left corner of the screen to see the exact center frequency of your highlighted area (in Hz).  Type this number into a separate text file and repeat for several peaks of interest.  In this example photo, that number is 245.78 (Hz).
+
 ![Example Highlighted Peak](images/Highlight_Peak_1.png)
 
 11. Open freq2notename’s dashboard. Copy-paste your list of frequencies into freq2notename’s dashboard, then (preferably) click "Auto-Estimate A4 Frequency", then click Convert to display the corresponding note letters/names.  By default, the note names will be at concert pitch, but you can use Show Detailed Settings and select different instruments if you would instead like to see the written note names for a transposing instrument.  If you change any settings, you must press the Convert button again to update the note names.  I also recommend copy-pasting the note names back into your text file and saving them.
+
 ![Auto-Estimate A4 Frequency Example](images/f2nn_Auto_Est_A4.png)
 ![Convert Frequencies to Concert Pitch Note Names Example](images/f2nn_Basic_Convert.png)
 ![Convert Frequencies to Transposed Note Names Example](images/f2nn_Alto_Flute_Convert.png)
