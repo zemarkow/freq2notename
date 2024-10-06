@@ -1,7 +1,7 @@
 # Spectrogram-aided music transcription: how to turn audio recordings into sheet music without perfect pitch
 
-### Zachary Markow
-### Last Updated 22 September 2024
+#### Zachary Markow
+#### Last Updated 22 September 2024
 
 ## Introduction
 This document explains how to use spectrograms, Audacity, and freq2notename’s dashboard ([https://github.com/zemarkow/freq2notename](https://github.com/zemarkow/freq2notename)) to help transcribe audio recordings into sheet music.  This technique and document mostly help obtain the correct pitches of notes in the recordings and leave the user/transcriber to tap/figure out the rhythms by ear.  First I explain related necessary concepts and then describe the process; please feel free to skip any material that you already know.
