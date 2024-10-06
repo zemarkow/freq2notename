@@ -23,7 +23,9 @@ This all takes practice and can be difficult when many instruments are playing s
 ## Steps for Spectrogram-Aided Music Transcription
 
 1. Download and install the programs Audacity ([https://www.audacityteam.org/](https://www.audacityteam.org/)) and freq2notename ([https://github.com/zemarkow/freq2notename](https://github.com/zemarkow/freq2notename)).  Depending on your computer, you might also need to download the current version of Python ([https://www.python.org/](https://www.python.org/)) to run freq2notename.
+
 2. Open your sound file in Audacity.  Audacity supports many sound file formats, including MP3 and WAV.  However, if you only have the file in a format that you can listen to with other programs, you could convert the file to MP3 with some other program or record the sound directly into a new Audacity file.\*\*
+
 3. Go up to the View menu \> Toolbars sub-menu and turn on the Spectral Selection Toolbar, which will then appear at the bottom of Audacity.
 
 ![View Spectral Selection Toolbar](images/Spectral_Selection_Toolbar_View_Show.png)
@@ -46,7 +48,9 @@ This all takes practice and can be difficult when many instruments are playing s
 ![Zoom to Selection](images/Zoom_to_Selection.png)
 
 8. In the Spectral Selection Toolbar near the bottom-left corner of the screen, set the menu to "Center frequency and Width" if it is not already on that setting.
+
 9. Play the audio segment a few times and watch the cursor to get a sense of which hot spots/peaks correspond to which notes, instruments/parts, and rhythms.
+
 10. For each peak of interest, click and drag over the hot spot.  Your selection should tightly enclose the hot spot’s vertical width.  Then check near the bottom-left corner of the screen to see the exact center frequency of your highlighted area (in Hz).  Type this number into a separate text file and repeat for several peaks of interest.  In this example photo, that number is 245.78 (Hz).
 
 ![Example Highlighted Peak](images/Highlight_Peak_1.png)
@@ -59,6 +63,7 @@ This all takes practice and can be difficult when many instruments are playing s
 ![Copying and Saving Result Back Into Text File](images/f2nn_Save_Result.png)
 
 12. Type the notes with your guessed rhythm into your sheet music typesetting software, and play them back to check for accuracy.
+
 13. Repeat steps 6-12 for different pitch ranges and time segments as needed.
 
 ## \*\*One way to get an Audacity-compatible version of your sound file from direct playback:
