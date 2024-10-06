@@ -1,6 +1,7 @@
 # Spectrogram-aided music transcription: how to turn audio recordings into sheet music without perfect pitch
 
 Zachary Markow
+
 Last Updated 22 September 2024
 
 ## Introduction
